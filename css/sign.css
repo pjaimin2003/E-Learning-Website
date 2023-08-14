@@ -1,0 +1,124 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Poppins:wght@700&family=Ubuntu:wght@700&display=swap');
+@font-face {
+    font-family: poppin;
+    src: url(../fonts/poppins/Poppins-Bold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: pippin;
+}
+
+body {
+    background-image: url(../img/download.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    height: 400px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+    transform: translateX(350px);
+    border-radius: 80px;
+    background-color: rgb(16, 163, 254);
+}
+
+section form {
+    width: 100%;
+    text-align: center;
+}
+
+form input {
+    text-align: center;
+    margin: 5px;
+    width: 250px;
+    height: 40px;
+    border: none;
+    font-size: 25px;
+    border-radius: 30px;
+}
+
+#signUp {
+    height: 350px;
+    width: 300px;
+    background-color: rgb(0, 170, 255);
+    padding-top: 60px;
+    margin-top: 25px;
+    transform: translateX(20px);
+    border-radius: 50px;
+}
+
+#signIn {
+    height: 350px;
+    width: 300px;
+    background-color: rgb(0, 170, 255);
+    padding-top: 110px;
+    margin-top: 25px;
+    transform: translateX(-20px);
+    border-radius: 50px;
+    display: none;
+}
+
+#signInSent {
+    margin-top: 180px;
+    transform: translateX(-120px);
+    background-color: rgb(0, 170, 255);
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#signInSent h1 {
+    padding-top: 5px;
+    font-family: poppin;
+    color: white;
+}
+
+#signInSent:hover {
+    cursor: pointer;
+    border: 1px white solid;
+}
+
+#signUpSent {
+    margin-top: 180px;
+    transform: translateX(100px);
+    background-color: rgb(150, 0, 0);
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    border-radius: 30px;
+    display: none;
+}
+
+#signUpSent h1 {
+    padding-top: 5px;
+    font-family: poppin;
+    color: white;
+}
+
+#signUpSent:hover {
+    cursor: pointer;
+    border: 1px white solid;
+}
+
+#signUp .button,
+#signIn .button {
+    width: 120px;
+    margin-top: 30px;
+    font-family: poppin;
+}
+
+#signUp .button:hover,
+#signIn .button:hover {
+    background-color: rgb(0, 170, 255);
+    color: white;
+    border: 3px solid white;
+    cursor: pointer;
+}
